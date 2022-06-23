@@ -1,0 +1,12 @@
+1.update pkg
+ npm update lodash --save
+
+2.update dev dependancy
+  npm update --dev --save-dev
+
+3.update all pkgs
+  npm update
+
+4.update global pkgs
+   npm update -global
+

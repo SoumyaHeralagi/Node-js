@@ -1,0 +1,7 @@
+1.uninstalling pkgs -> npm uninstall moment 
+
+2.To remove entry for pkg.json
+    npm uninstall moment --save
+
+3. to remove dev dependancy
+    npm uninstall lodash --save --dev

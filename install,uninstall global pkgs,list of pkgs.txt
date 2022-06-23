@@ -1,0 +1,16 @@
+1.installing global pkgs
+  npm install moment -g
+
+2.uninstall global pkgs
+  npm uninstall moment -g
+
+3.listing pkgs
+  npm list 
+  this shows the list of packages that are dependant.
+
+4.To restrict the depth of the dependancy
+   npm list --depth1
+   this gives immediate dependencies
+
+5.To list global pkgs
+   npm list --global true --depth0

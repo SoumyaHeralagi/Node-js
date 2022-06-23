@@ -1,0 +1,14 @@
+1. installing local pkg ->npm install moment
+moment is a javascript ate library.
+
+2.To save pkg as a dependency in package.json File
+  npm install moment --save
+
+If wwe want to install pkgs for development 
+   npm install lodash --save --dev
+
+
+testings packages -> macha, karma -> as dev dependencies-> they are large  
+
+lodash-> develop dependency
+moment->production dependency
