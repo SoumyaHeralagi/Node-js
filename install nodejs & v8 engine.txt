@@ -1,0 +1,14 @@
+installing nodejs:
+* To run->node <filename>
+* to change the directory -> cd..
+
+
+V8 engine:
+
+* V8 javascript engine: It takes javascript & converts it into machine code
+
+* nodejs written in c++ because it uses v8 engine created by google.
+
+* v8 engine is google's open source, high performance javascript engine, that converts javascript into machine code.
+
+
