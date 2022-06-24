@@ -1,0 +1,10 @@
+* Nodejs: is an open source, cross platform javascript runtime environment and library for running web applications.
+
+* It is used for server side web application.
+
+* nodejs has large package ecosystem-npm.
+
+why nodejs:
+* it is fast: it built on google chromes' v8 javascript engine.
+* it easily communicate with the database.
+* read,delete,update files. 
