@@ -1,0 +1,20 @@
+* client send req to server. Server send response to client.
+
+* protocol: 
+ client and server communicate with the help of protocols.
+ Its the set of rules that two sides of computer agree to communicate.
+
+* IP adrees:
+ computer can be identified by their own unique IP address.
+
+ * client & server communicates each other via socket channel.
+
+ * TCP: 
+ the way sent from server to client via protocol is called TCP.
+
+* packets:
+TCP splits the data into smaller sections is called packets.
+
+* ports:
+A program running on a computer can listen for req sent to a particular
+port number.
