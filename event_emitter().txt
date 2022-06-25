@@ -8,6 +8,9 @@ event emitter :
     })
 
     myEmitter.emit('someEvent','the event was emitted')
+    
+* node will recognize the module & it will go out & it will fetch thatmodule for us so this module is called events.
 
 * emit() is used to trigger an event
 * on() is used to add callback function that is going to be executed when the event is triggered
+*uril()-> its a utility module which allows us to inherits the object.
