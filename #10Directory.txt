@@ -1,0 +1,29 @@
+unlink() --> used to remove files
+mkdir(), mkdirSync() ---> make directory
+rmdir(), rmdirSync() ---> remove directory
+ 
+* To make and remove synchronous directory
+var fs=require('fs');
+fs.mkdirSync('stuff');
+fs.rmdirSync('stuff');
+
+* To make asynchronous directory
+
+var fs=require('fs');
+
+fs.mkdir('stuff',function(){
+    fs.readFile('readMe.txt','utf8',function(err,data){
+        fs.writeFile('./stuff/writeMe.txt', data);
+    });
+});
+
+*To remove asynchronous directory
+ 
+ var fs=require('fs');
+ 
+ fs.unlink('./stuff/writeMe.txt',function(){
+    fs.rmdir('stuff');
+ });
+
+
+
