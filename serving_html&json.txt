@@ -1,0 +1,15 @@
+* serving html via readstream and piping it to the response.
+
+var myReadStream = fs.createReadStream(__dirname + '/serving_html2.html','utf8');
+myReadStream.pipe(res)
+
+* In serving Json we are directly going to send the response
+ object by using end() method.
+
+ var myobj={
+    name:'jhon',
+    job:'ninja',
+    age:29
+ };
+
+ res.end(Json.stringify(myobj));
