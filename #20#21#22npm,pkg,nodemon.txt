@@ -1,0 +1,18 @@
+node package manager:
+* its is package manager for js platform
+* it helps in installing third-party packages eg: express
+ npm install express
+
+ package.json:
+* it keeps track of installed package/dependencies
+
+cmd :
+* npm init
+* npm install express --save
+
+nodemon package:
+* it monitors application file, if any changes done to the file then it starts automatically restarts the application file
+
+cmd:
+* npm install nodemon -g
+* nodemon app.js --> to run application using nodemon
