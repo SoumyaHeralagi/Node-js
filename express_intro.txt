@@ -1,0 +1,10 @@
+Express : its one of the node pkgs in the internet.
+* express is a node js web application framework that provides features for building web and mobile apllication.
+
+why express:
+* easy and flexible routing system
+* integrates with many templating engines 
+* contains a middleware framework
+* it is module written in js which used for creating web applications/api's
+
+Express is just a module written in javascript which we can use in our application.
