@@ -24,5 +24,5 @@ var server=http.createServer(function(req,res){
         fs.createReadStream(__dirname+'/contact2.html').pipe(res);
     }
 });
-server.listen(3002, '127.0.0.1');
-console.log('yo, listening to port 3000');
+server.listen(3003, '127.0.0.1');
+console.log('yo, listening to port 3003');
