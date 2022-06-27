@@ -5,7 +5,7 @@ var fs = require('fs')
 var server = http.createServer(function(req,res){
     console.log('request was made: ')
     res.writeHead(200,{'content-type':'text/plain'})
-    var myReadStream = fs.createReadStream(__dirname + '/readMe1.txt','utf8')
+    var myReadStream = fs.createReadStream(__dirname + '/readMe.txt','utf8')
     myReadStream.pipe(res)
 })
 
